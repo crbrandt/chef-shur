@@ -22,6 +22,7 @@ import html5lib
 
 from datetime import date
 from datetime import datetime
+from datetime import timedelta
 
 
 # In[2]:
@@ -76,7 +77,8 @@ if auth != True:
 		auth = 'undefined'
 	elif guest_id == 'test' and password == 'test':
 		auth = True
-		new_rsvp = {'response_id' : (len(rsvp)+1), 'user_id': guest_id, 'name': 'test_user', 'response':'attending','response_date' : datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
+		ct = datetime.now() + timedelta(hours = -8)
+		new_rsvp = {'response_id' : (len(rsvp)+1), 'user_id': guest_id, 'name': 'test_user', 'response':'attending','response_date' : ct.strftime("%m/%d/%Y %H:%M:%S")}
 	elif guest_id == 'test1' and password == 'test1':
 		auth = True
 	else:
