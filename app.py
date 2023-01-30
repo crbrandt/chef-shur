@@ -83,6 +83,8 @@ if auth == True:
 	st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
 	st.write("#")
 	st.button('Yes, Chef')
+else:
+	st.write("#")
 	
 	
 st.write("#")
