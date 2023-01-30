@@ -113,6 +113,16 @@ season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 
 # In[31]:
 st.button('Yes, Chef')
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
+st.write("#")
 
 # Bottom info bar ------------------------------------------------------------------------
 #st.markdown('___')
