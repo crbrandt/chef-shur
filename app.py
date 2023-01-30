@@ -64,7 +64,7 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 #st.title('yes.chef')
 auth = null 
 
-while auth <> True:
+while auth != True:
   guest_id = st.text_input("guest id", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
   password = st.text_input("password", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
   st.button('submit') 
