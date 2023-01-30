@@ -76,10 +76,9 @@ if auth != True:
 		auth = True
 	else:
 		auth = auth
-elseif auth == 'undefined':
-	st.write('#')
+	
 else:
-	st.write('invalid.')
+	st.write('#')
  
 
 if auth == True:
