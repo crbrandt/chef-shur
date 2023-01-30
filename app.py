@@ -78,7 +78,7 @@ if auth != True:
 	elif guest_id == 'test' and password == 'test':
 		auth = True
 		ct = datetime.now() + timedelta(hours = -8)
-		new_rsvp = {'response_id' : (len(rsvp)+1), 'user_id': guest_id, 'name': 'test_user', 'response':'attending','response_date' : ct.strftime("%m/%d/%Y %H:%M:%S")}
+		new_rsvp = {'response_id' : [(len(rsvp)+1)], 'user_id': [guest_id], 'name': ['test_user'], 'response':['attending'],'response_date' : [ct.strftime("%m/%d/%Y %H:%M:%S")]}
 	elif guest_id == 'test1' and password == 'test1':
 		auth = True
 	else:
