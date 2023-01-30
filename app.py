@@ -69,7 +69,7 @@ if auth != True:
 		guest_id = st.text_input(label="guest id", key='guest_id')
 		password = st.text_input(label="password", key='password')
 		submit_button = st.form_submit_button(label='submit')
-		if (length(guest_id) != 0 OR length(password) != 0) AND auth != True:
+		if (len(guest_id) != 0 OR len(password) != 0) AND auth != True:
 			st.write('Invalid')
 		else:
 			st.write('')
