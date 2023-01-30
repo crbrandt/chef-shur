@@ -76,7 +76,7 @@ if auth != True:
 		auth = 'undefined'
 	elif guest_id == 'test' and password == 'test':
 		auth = True
-		new_rsvp = {response_id : (len(rsvp)+1), user_id: guest_id, name: 'test_user', response:'attending',response_date : datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
+		new_rsvp = {'response_id' : (len(rsvp)+1), 'user_id': guest_id, 'name': 'test_user', 'response':'attending','response_date' : datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
 	elif guest_id == 'test1' and password == 'test1':
 		auth = True
 	else:
