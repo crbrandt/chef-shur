@@ -59,7 +59,7 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 
 
 ##Header and Logo
-col_title = st.beta_columns([4,1])
+col_title = st.beta_columns([4,0])
 with col_title:
   st.title('yes.chef')
   st.markdown(' ## say yes to chef, if you choose to attend')
