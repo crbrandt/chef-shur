@@ -79,27 +79,12 @@ while auth != True:
  
 
 if auth == True:
-  st.markdown(' ## say yes to chef, if you choose to attend')
-  st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
-  #st.markdown('  Last updated: Thursday, January 6th, 2022')  
-
-  st.write("#")
-  # highlight('NFL Week ' + str(1))
-
-
-  # In[5]:
-
-
-  #Getting current week number
-
-  current_week_num =0
-
-  season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
-
-
-
-  # In[31]:
-  st.button('Yes, Chef')
+	st.markdown(' ## say yes to chef, if you choose to attend')
+	st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
+	st.write("#")
+	st.button('Yes, Chef')
+	
+	
 st.write("#")
 st.write("#")
 st.write("#")
