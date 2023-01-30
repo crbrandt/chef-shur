@@ -67,7 +67,7 @@ with col_title:
   #accuracy('Lifetime ATS accuracy: 54.6%')
   #accuracy('Lifetime ML accuracy: 67.3%')
 with col_logo:
-  st.image("https://static.wikia.nocookie.net/logopedia/images/b/bc/NationalFootballLeague_PMK01a_1940-1959_SCC_SRGB.png")
+  st.image("https://w7.pngwing.com/pngs/184/60/png-transparent-chef-s-uniform-hat-toque-hat.png")
 st.write("#")
 highlight('NFL Week ' + str(1))
 
