@@ -117,19 +117,11 @@ season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 # Bottom info bar ------------------------------------------------------------------------
 #st.markdown('___')
 #about = st.beta_expander('About')
-#with about:
-    #'''
-    #Thank you for visiting the NFL Game Predictor, developed by Cole Brandt. For more information, please visit my [Github repository] (https://github.com/crbrandt/NFLPredictor).
-    
-    #Feel free to support via Venmo, @ColeBrandt
-    
-    #Spreads from MGM Sportsbook, scraped from VegasInsider.com. All images sourced from sportslogos.net. 
-    
-    #[Contact Me] (mailto:cole.r.brandt@gmail.com)
-    #'''
-    
-st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg",
+with about:
+    st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg",
     #width= 100, caption='2023 Cole Brandt')
+    
+
 
 
 # In[ ]:
