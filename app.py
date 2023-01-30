@@ -119,7 +119,7 @@ season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 #about = st.beta_expander('About')
 with about:
     st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg",
-    #width= 100, caption='2023 Cole Brandt')
+    width= 100, caption='2023 Cole Brandt')
     
 
 
