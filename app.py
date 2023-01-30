@@ -99,15 +99,15 @@ season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 
 
 
-disclaimer('Note: This model does not currently account for players being out due to COVID or injury.')
+# disclaimer('Note: This model does not currently account for players being out due to COVID or injury.')
 
 # In[50]:
 
 
-st.markdown('___')
-Rankings = st.beta_expander('Statistics and Power Rankings')
-with Rankings:
-    st.markdown('Team Statistics Sorted by Power Ranking')
+#st.markdown('___')
+#Rankings = st.beta_expander('Statistics and Power Rankings')
+#with Rankings:
+    #st.markdown('Team Statistics Sorted by Power Ranking')
    
 
 
@@ -115,9 +115,9 @@ with Rankings:
 
 
 # Bottom info bar ------------------------------------------------------------------------
-st.markdown('___')
-about = st.beta_expander('About')
-with about:
+#st.markdown('___')
+#about = st.beta_expander('About')
+#with about:
     '''
     Thank you for visiting the NFL Game Predictor, developed by Cole Brandt. For more information, please visit my [Github repository] (https://github.com/crbrandt/NFLPredictor).
     
@@ -128,8 +128,8 @@ with about:
     [Contact Me] (mailto:cole.r.brandt@gmail.com)
     '''
     
-st.image("https://w7.pngwing.com/pngs/184/60/png-transparent-chef-s-uniform-hat-toque-hat.png",
-    width= 100, caption='2023 Cole Brandt')
+st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg",
+    #width= 100, caption='2023 Cole Brandt')
 
 
 # In[ ]:
