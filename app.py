@@ -96,6 +96,7 @@ if auth == True:
 	if st.button('yes, chef'):
 		st.write('response noted.')
 		rsvps = rsvp.append(new_rsvp, ignore_index = True)
+		rsvps
 	else:
 		st.write('')
 else:
