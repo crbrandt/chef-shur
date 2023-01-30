@@ -92,7 +92,7 @@ else:
 if auth == True:
 	st.markdown(' ## say yes to chef, if you choose to attend')
 	st.write("#")
-	if st.button('Yes, Chef'):
+	if st.button('yes, chef'):
 		'response noted.'
 	else:
 		st.write('')
