@@ -69,27 +69,35 @@ if auth != True:
 		guest_id = st.text_input(label="guest id", key='guest_id')
 		password = st.text_input(label="password", key='password')
 		submit_button = st.form_submit_button(label='submit')
+		if (length(guest_id) != 0 OR length(password) != 0) AND auth != True:
+			st.write('Invalid')
+		else:
+			st.write('')
 		
 	if guest_id == 'test' and password == 'test':
 		auth = True
 	elif guest_id == 'test1' and password == 'test1':
 		auth = True
 	else:
-		auth = auth
+		auth = False		
 	
 else:
 	st.write('#')
  
 
+	
+	
+
 if auth == True:
 	st.markdown(' ## say yes to chef, if you choose to attend')
-	st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
 	st.write("#")
 	st.button('Yes, Chef')
 else:
 	st.write("#")
 	
-	
+
+st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")	
+
 st.write("#")
 st.write("#")
 st.write("#")
