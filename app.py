@@ -130,7 +130,7 @@ with about:
     [Contact Me] (mailto:cole.r.brandt@gmail.com)
     '''
     
-st.image("https://static.wikia.nocookie.net/logopedia/images/b/bc/NationalFootballLeague_PMK01a_1940-1959_SCC_SRGB.png",
+st.image("https://w7.pngwing.com/pngs/184/60/png-transparent-chef-s-uniform-hat-toque-hat.png",
     width= 100, caption='2023 Cole Brandt')
 
 
