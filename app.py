@@ -97,7 +97,7 @@ if auth == True:
 	st.write("#")
 	if st.button('yes, chef'):
 		st.write('response noted.')
-		new_rsvp_df = pd.df(new_rsvp)
+		new_rsvp_df = pd.DataFrame(new_rsvp)
 		rsvps = rsvp.append(new_rsvp_df)
 		rsvps
 	else:
