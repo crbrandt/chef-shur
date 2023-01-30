@@ -62,7 +62,7 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 
 
 #st.title('yes.chef')
-auth = null 
+auth = 'undefined' 
 
 while auth != True:
   guest_id = st.text_input("guest id")
