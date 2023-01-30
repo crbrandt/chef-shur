@@ -78,7 +78,7 @@ while auth != True:
 		st.write('Invalid.')
  
 
-while auth == True:
+if auth == True:
   st.markdown(' ## say yes to chef, if you choose to attend')
   st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
   #st.markdown('  Last updated: Thursday, January 6th, 2022')  
@@ -95,36 +95,6 @@ while auth == True:
   current_week_num =0
 
   season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
-
-
-
-
-  # In[7]:
-
-
-
-
-
-  # In[8]:
-
-
-
-
-
-  # In[9]:
-
-
-
-
-  # disclaimer('Note: This model does not currently account for players being out due to COVID or injury.')
-
-  # In[50]:
-
-
-  #st.markdown('___')
-  #Rankings = st.beta_expander('Statistics and Power Rankings')
-  #with Rankings:
-      #st.markdown('Team Statistics Sorted by Power Ranking')
 
 
 
@@ -149,130 +119,3 @@ with about:
     width= 100, caption='2023 Cole Brandt')
 
 st.write("#")
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[10]:
-
-
-
-
-
-# In[11]:
-
-
-
-
-##Creating Text format options with base and team colors
-
-# In[12]:
-
-
-
-
-
-# In[13]:
-
-
-
-
-
-# In[14]:
-
-
-# preds_url = 'https://raw.githubusercontent.com/crbrandt/NFLPredictor/main/Data/preds.csv'
-# preds = pd.read_csv(preds_url, error_bad_lines=False)
-#preds
-
-
-# In[15]:
-
-
-
-
-
-# In[16]:
-
-
-#df_weather[df_weather['Home_Team'] == 'Los Angeles Rams'].iat[0,2]
-#len(preds['Predicted_Difference'])
-#df_weather
-
-
-# In[17]:
-
-
-
-
-
-# In[18]:
-
-
-#preds['Weather']
-
-
-# In[19]:
-
-
-
-
-
-# In[ ]:
-
-
-#df_full.head()
-
-
-# In[20]:
-
-
-
-
-
-# In[21]:
-
-
-
-
-
-# In[22]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
