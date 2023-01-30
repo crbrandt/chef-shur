@@ -69,9 +69,9 @@ while auth != True:
   password = st.text_input("password")
   st.button('submit') 
   
-  if guest_id == 'test' AND password == 'test':
+  if guest_id == 'test' and password == 'test':
     auth = True
-  elif guest_id == 'test1' AND password == 'test1':
+  elif guest_id == 'test1' and password == 'test1':
     auth = True
   else:
     st.write('Invalid.')
