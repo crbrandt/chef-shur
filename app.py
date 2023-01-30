@@ -61,58 +61,74 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 ##Header and Logo
 
 
-st.title('yes.chef')
-st.markdown(' ## say yes to chef, if you choose to attend')
-st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
-#st.markdown('  Last updated: Thursday, January 6th, 2022')  
+#st.title('yes.chef')
+auth = null 
 
-st.write("#")
-# highlight('NFL Week ' + str(1))
+while auth <> True:
+  guest_id = st.text_input("guest id", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
+  password = st.text_input("password", value="", max_chars=None, key=None, type="default", help=None, autocomplete=None, on_change=None, args=None, kwargs=None, *, placeholder=None, disabled=False, label_visibility="visible")
+  st.button('submit') 
+  
+  if guest_id = 'test' AND password = 'test':
+    auth = True
+  elif guest_id = 'test1' AND password = 'test1':
+    auth = True
+  else:
+    st.write('Invalid.')
+ 
 
+while auth = True:
+  st.markdown(' ## say yes to chef, if you choose to attend')
+  st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
+  #st.markdown('  Last updated: Thursday, January 6th, 2022')  
 
-# In[5]:
-
-
-#Getting current week number
-
-current_week_num =0
-
-season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
-
-
-
-
-# In[7]:
-
-
-
+  st.write("#")
+  # highlight('NFL Week ' + str(1))
 
 
-# In[8]:
+  # In[5]:
 
 
+  #Getting current week number
 
+  current_week_num =0
 
-
-# In[9]:
-
+  season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 
 
 
-# disclaimer('Note: This model does not currently account for players being out due to COVID or injury.')
 
-# In[50]:
-
-
-#st.markdown('___')
-#Rankings = st.beta_expander('Statistics and Power Rankings')
-#with Rankings:
-    #st.markdown('Team Statistics Sorted by Power Ranking')
-   
+  # In[7]:
 
 
-# In[31]:
-st.button('Yes, Chef')
+
+
+
+  # In[8]:
+
+
+
+
+
+  # In[9]:
+
+
+
+
+  # disclaimer('Note: This model does not currently account for players being out due to COVID or injury.')
+
+  # In[50]:
+
+
+  #st.markdown('___')
+  #Rankings = st.beta_expander('Statistics and Power Rankings')
+  #with Rankings:
+      #st.markdown('Team Statistics Sorted by Power Ranking')
+
+
+
+  # In[31]:
+  st.button('Yes, Chef')
 st.write("#")
 st.write("#")
 st.write("#")
