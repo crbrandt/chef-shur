@@ -63,6 +63,8 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 
 #st.title('yes.chef')
 auth = 'undefined' 
+guest_id = ''
+password = ''
 
 if auth != True:
 	with st.form(key='my_form'):
