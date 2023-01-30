@@ -63,7 +63,7 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 
 st.title('yes.chef')
 st.markdown(' ## say yes to chef, if you choose to attend')
-st.image("https://w7.pngwing.com/pngs/184/60/png-transparent-chef-s-uniform-hat-toque-hat.png")
+st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
 st.markdown('  Last updated: Thursday, January 6th, 2022')  
 
 st.write("#")
