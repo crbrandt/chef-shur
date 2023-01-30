@@ -65,18 +65,17 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 auth = 'undefined' 
 
 while auth != True:
-  with st.form(key='my_form'):
-	guest_id = st.text_input(label="guest id", key='guest_id')
-	password = st.text_input(label="password", key='password')
-	submit_button = st.form_submit_button(label='submit')
-
-  
-  if guest_id == 'test' and password == 'test':
-    auth = True
-  elif guest_id == 'test1' and password == 'test1':
-    auth = True
-  else:
-    st.write('Invalid.')
+	with st.form(key='my_form'):
+		guest_id = st.text_input(label="guest id", key='guest_id')
+		password = st.text_input(label="password", key='password')
+		submit_button = st.form_submit_button(label='submit')
+		
+	if guest_id == 'test' and password == 'test':
+		auth = True
+	elif guest_id == 'test1' and password == 'test1':
+		auth = True
+	else:
+		st.write('Invalid.')
  
 
 while auth == True:
