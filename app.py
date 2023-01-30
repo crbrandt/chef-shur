@@ -112,7 +112,7 @@ season_start = datetime.strptime('2021-09-07', '%Y-%m-%d').date()
 
 
 # In[31]:
-
+st.button('Yes, Chef')
 
 # Bottom info bar ------------------------------------------------------------------------
 #st.markdown('___')
@@ -120,8 +120,10 @@ about = st.beta_expander('About')
 with about:
     st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg",
     width= 100, caption='2023 Cole Brandt')
-    
-st.button('Yes, Chef')
+
+st.write("#")
+
+
 
 # In[ ]:
 
