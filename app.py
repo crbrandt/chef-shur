@@ -59,17 +59,15 @@ rsvp = pd.read_csv(rsvp_url, error_bad_lines=False)
 
 
 ##Header and Logo
-col_title, col_logo = st.beta_columns([4,1])
+col_title = st.beta_columns([4,1])
 with col_title:
-  st.title('NFL Game Predictor')
-  st.markdown(' ## Created by Cole Brandt')
+  st.title('yes.chef')
+  st.markdown(' ## say yes to chef, if you choose to attend')
   st.markdown('  Last updated: Thursday, January 6th, 2022')  
-  #accuracy('Lifetime ATS accuracy: 54.6%')
-  #accuracy('Lifetime ML accuracy: 67.3%')
-with col_logo:
   st.image("https://w7.pngwing.com/pngs/184/60/png-transparent-chef-s-uniform-hat-toque-hat.png")
+  
 st.write("#")
-highlight('NFL Week ' + str(1))
+# highlight('NFL Week ' + str(1))
 
 
 # In[5]:
