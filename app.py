@@ -76,6 +76,7 @@ if auth != True:
 		auth = 'undefined'
 	elif guest_id == 'test' and password == 'test':
 		auth = True
+		new_rsvp = {response_id : (len(rsvp)+1), user_id: guest_id, name: 'test_user', response:'attending',response_date : datetime.now().strftime("%d/%m/%Y %H:%M:%S")}
 	elif guest_id == 'test1' and password == 'test1':
 		auth = True
 	else:
@@ -93,7 +94,8 @@ if auth == True:
 	st.markdown(' ## say yes to chef, if you choose to attend')
 	st.write("#")
 	if st.button('yes, chef'):
-		'response noted.'
+		st.write('response noted.')
+		rsvps = rsvp.append(new_rsvp, ignore_index = True)
 	else:
 		st.write('')
 else:
