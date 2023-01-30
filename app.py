@@ -77,7 +77,7 @@ while auth != True:
     st.write('Invalid.')
  
 
-while auth = True:
+while auth == True:
   st.markdown(' ## say yes to chef, if you choose to attend')
   st.image("https://i.ibb.co/hDRKYT4/png-transparent-chef-s-uniform-hat-toque-hat-removebg-preview.jpg")
   #st.markdown('  Last updated: Thursday, January 6th, 2022')  
