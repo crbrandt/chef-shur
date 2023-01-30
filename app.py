@@ -66,9 +66,9 @@ auth = 'undefined'
 
 while auth != True:
   with st.form(key='my_form'):
-	  guest_id = st.text_input(label="guest id", key='guest_id')
-    password = st.text_input(label="password", key='password')
-	  submit_button = st.form_submit_button(label='submit')
+	guest_id = st.text_input(label="guest id", key='guest_id')
+	password = st.text_input(label="password", key='password')
+	submit_button = st.form_submit_button(label='submit')
 
   
   if guest_id == 'test' and password == 'test':
